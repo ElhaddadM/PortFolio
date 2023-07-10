@@ -1,15 +1,15 @@
 import React from "react";
-
+import { Link } from 'react-router-dom';
 function NavBar() {
   return (
-   <div className="">
-     <nav class="navbar navbar-expand-lg  " style={{ backgroundColor:' #20232F'  }} >
-      <div class="container-fluid  " >
-        <a class="navbar-brand text-light" href="#">
+
+     <nav className="navbar navbar-expand-lg mt-2 shadow-lg p-2 mb-5  rounded" style={{ backgroundColor:' #20232F'  }} >
+      <div className="container-fluid   " >
+        <Link className="navbar-brand text-light" to="/">
           Elhaddad 
-        </a>
+        </Link>
         <button
-          class="navbar-toggler bg-light"
+          className="navbar-toggler bg-light"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -17,43 +17,40 @@ function NavBar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse " id="navbarNav">
-          <ul class="navbar-nav  " >
-            <li class="nav-item">
-              <a class="nav-link active  text-light" aria-current="page" href="#">
+        <div className="collapse navbar-collapse " style={{ marginLeft:"30%" }} id="navbarNav">
+          <ul className="navbar-nav  " >
+            <li className="nav-item ">
+              <Link className="nav-link   text-light" aria-current="page" to="/">
                 Home
-              </a>
+              </Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">
+            <li className="nav-item">
+              <Link className="nav-link text-light" to="about">
               About
-              </a>
+              </Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">
+            <li className="nav-item">
+              <Link className="nav-link text-light" to="skills">
                 Skills
-              </a>
+              </Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">
+            <li className="nav-item">
+              <Link className="nav-link text-light" to="PortFolio">
                 PortFolio
-              </a>
+              </Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">
+            <li className="nav-item">
+              <Link className="nav-link text-light" to="Contact">
                 Contact
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link  text-light">Disabled</a>
+              </Link>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-   </div>
+  
   );
 }
 
