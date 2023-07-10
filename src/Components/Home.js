@@ -32,11 +32,11 @@ function Home() {
                 culpa ipsam!
               </p>
               <div className="my-5">
-                <a href="https://api.whatsapp.com/send?phone=212775504195" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}> <WhatsAppIcon sx={{ fontSize: 40 }} color="success" /> </span> </a>
-                <a href="https://github.com/ElhaddadM" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}><GitHubIcon sx={{ fontSize: 40 }}  /></span>  </a>
-                <a href="https://www.linkedin.com/in/elhaddad-abdelmounaim-013494174/" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}><LinkedInIcon sx={{ fontSize: 40 }}  /></span> </a>
-                <a href="https://www.instagram.com/abdelmounaimelhaddad/?utm_source=qr" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}><InstagramIcon sx={{ fontSize: 40 }} /></span> </a>
-                <a href="https://web.facebook.com/mounim.elhaddad.7?mibextid=ZbWKwL&_rdc=1&_rdr" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}><FacebookRoundedIcon sx={{ fontSize: 40 }}  /></span> </a>
+                <a rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=212775504195" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}> <WhatsAppIcon sx={{ fontSize: 40 }} color="success" /> </span> </a>
+                <a rel="noopener noreferrer" href="https://github.com/ElhaddadM" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}><GitHubIcon sx={{ fontSize: 40 }}  /></span>  </a>
+                <a rel="noopener noreferrer" href="https://www.linkedin.com/in/elhaddad-abdelmounaim-013494174/" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}><LinkedInIcon sx={{ fontSize: 40 }}  /></span> </a>
+                <a rel="noopener noreferrer" href="https://www.instagram.com/abdelmounaimelhaddad/?utm_source=qr" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}><InstagramIcon sx={{ fontSize: 40 }} /></span> </a>
+                <a rel="noopener noreferrer" href="https://web.facebook.com/mounim.elhaddad.7?mibextid=ZbWKwL&_rdc=1&_rdr" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}><FacebookRoundedIcon sx={{ fontSize: 40 }}  /></span> </a>
               </div>
               <div className="mt-5" ><Button variant="contained"  endIcon={<CloudDownloadTwoToneIcon />} > Download CV  </Button></div>
             </div>
