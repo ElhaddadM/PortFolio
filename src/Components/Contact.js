@@ -47,23 +47,23 @@ const notify= () =>{
        <form ref={form} className='d-flex justify-content-center flex-wrap  my-2 ' onSubmit={sendEmail } >
        <div className='row my-2 w-75' > 
             <div className='col-12 col-md-6  col-sm-12 col-lg-6 my-2'>
-                <TextField id="outlined-basic" label="Full Name" name="user_name" variant="outlined"  className="w-100 text-light"  style={{ color:'red',backgroundColor:"#323744" }}/>
+                <TextField id="outlined-basic" label="Full Name" required name="user_name" variant="outlined"  className="w-100 text-light"  style={{ color:'red',backgroundColor:"#323744" }}/>
             </div>
             <div className='col-12 col-md-6  col-sm-12 col-lg-6 my-2'>
-                <TextField id="outlined-basic" label="Email Address" name="user_email" variant="outlined"  className="w-100 text-light"  style={{ backgroundColor:"#323744" }}/>
+                <TextField id="outlined-basic" label="Email Address" required name="user_email" variant="outlined"  className="w-100 text-light"  style={{ backgroundColor:"#323744" }}/>
             </div>
         </div>
         <div className='row  w-75' > 
             <div className='col-12 col-md-6  col-sm-12 col-lg-6  my-2'>
-                <TextField id="outlined-basic" label="Mobile Number" variant="outlined"  className="w-100 text-light" name="user_phone"   style={{ backgroundColor:"#323744" }}/>
+                <TextField id="outlined-basic" label="Mobile Number" required variant="outlined"  className="w-100 text-light" name="user_phone"   style={{ backgroundColor:"#323744" }}/>
             </div>
             <div className='col-12 col-md-6  col-sm-12 col-lg-6 my-2 '>
-                <TextField id="outlined-basic" label="Email Subject" variant="outlined" name='user_subject' className="w-100 text-light"  style={{ backgroundColor:"#323744" }}/>
+                <TextField id="outlined-basic" label="Email Subject" required variant="outlined" name='user_subject' className="w-100 text-light"  style={{ backgroundColor:"#323744" }}/>
             </div>
         </div>
         <div className='row  w-75' > 
             <div className='col-12 mt-2 '> 
-                 <TextField  id="outlined-multiline-static" label="Your Message" name="message"  multiline rows={6} className='w-100 text-light' style={{ backgroundColor:"#323744" ,color:'red'}} />
+                 <TextField  id="outlined-multiline-static" required label="Your Message" name="message"  multiline rows={6} className='w-100 text-light' style={{ backgroundColor:"#323744" ,color:'red'}} />
             </div>
             <div className='col-12 my-3 '> 
             <input type="submit" value=" Send Message "  class="btn  rounded-pill h-100 text-uppercase"   style={{ backgroundColor:"#00DFC0" }} />
