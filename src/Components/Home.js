@@ -21,22 +21,20 @@ function Home() {
             <div className="col-12 col-sm-6 col-md-6">
               <h3> Hello ,it's Me </h3>
               <h2> Elhaddad Abdelmounaim </h2>
-              <h2> And I'm a
+              <h2> And I'm a 
                 <span style={{ color: "#04BFCE" }}>
                   full-stack developer
                 </span>
               </h2>
               <p className="mt-4">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
-                vero debitis autem veritatis ut, provident minus quae expedita
-                culpa ipsam!
+              A passionate Full Stack developer  from Morroco, Tahanaout,marrakech.  
               </p>
               <div className="my-5">
                 <a rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=212775504195" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}> <WhatsAppIcon sx={{ fontSize: 40 }} color="success" /> </span> </a>
                 <a rel="noopener noreferrer" href="https://github.com/ElhaddadM" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}><GitHubIcon sx={{ fontSize: 40 }}  /></span>  </a>
-                <a rel="noopener noreferrer" href="https://www.linkedin.com/in/elhaddad-abdelmounaim-013494174/" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}><LinkedInIcon sx={{ fontSize: 40 }}  /></span> </a>
-                <a rel="noopener noreferrer" href="https://www.instagram.com/abdelmounaimelhaddad/?utm_source=qr" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}><InstagramIcon sx={{ fontSize: 40 }} /></span> </a>
-                <a rel="noopener noreferrer" href="https://web.facebook.com/mounim.elhaddad.7?mibextid=ZbWKwL&_rdc=1&_rdr" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}><FacebookRoundedIcon sx={{ fontSize: 40 }}  /></span> </a>
+                <a rel="noopener noreferrer" href="https://www.linkedin.com/in/elhaddad-abdelmounaim-013494174/" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}><LinkedInIcon sx={{ fontSize: 40 }} color="primary"  /></span> </a>
+                <a rel="noopener noreferrer" href="https://www.instagram.com/abdelmounaimelhaddad/?utm_source=qr" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}><InstagramIcon sx={{ fontSize: 40 }} color=""  /></span> </a>
+                <a rel="noopener noreferrer" href="https://web.facebook.com/mounim.elhaddad.7?mibextid=ZbWKwL&_rdc=1&_rdr" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}><FacebookRoundedIcon sx={{ fontSize: 40 }} color="light"  /></span> </a>
               </div>
               <div className="mt-5" ><Button variant="contained"  endIcon={<CloudDownloadTwoToneIcon />} > Download CV  </Button></div>
             </div>
