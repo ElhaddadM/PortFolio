@@ -1,4 +1,5 @@
 import React from "react";
+import { useTypewriter,Cursor } from 'react-simple-typewriter'
 import Button from '@mui/material/Button';
 import About from "./About";
 import logo from "../assets/logo.png"
@@ -13,6 +14,11 @@ import Project from "./Project";
 import Contact from "./Contact";
 
 function Home() {
+  const [text] = useTypewriter({
+    words: ['front-end developer .', 'Backend developer .', 'full-stack developer .', 'Informaticien .'],
+    loop: 0
+  })
+
   return (
     <div>
       <section className=" text-light mt-5">
@@ -21,9 +27,10 @@ function Home() {
             <div className="col-12 col-sm-6 col-md-6">
               <h3> Hello ,it's Me </h3>
               <h2> Elhaddad Abdelmounaim </h2>
-              <h2> And I'm a 
+              <h2> And I'm a { } 
                 <span style={{ color: "#04BFCE" }}>
-                  full-stack developer
+                {text}
+                <Cursor cursorColor='white' />
                 </span>
               </h2>
               <p className="mt-4">

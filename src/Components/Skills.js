@@ -12,7 +12,7 @@ function Skills() {
     {
       icon: backend,
       service: "Backend",
-      langue: ["PHP", "Laravel", "Symfony (Basic)"],
+      langue: ["PHP", "Laravel", "Symfony (Basic)",'MySQL'],
     },
     {
       icon: other,
