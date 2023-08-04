@@ -7,7 +7,7 @@ function Skills() {
     {
       icon:  frontEnd ,
       service: "front-end",
-      langue: ["HTML", "CSS", "JavaScript","React","Bootstrap","Tailwind css"],
+      langue: ["HTML", "CSS", "JavaScript","React","Bootstrap","Tailwind css","NodeJS","Express JS","StimulusJS","TypeScript"],
     },
     {
       icon: backend,
