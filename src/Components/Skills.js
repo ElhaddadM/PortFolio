@@ -7,17 +7,17 @@ function Skills() {
     {
       icon:  frontEnd ,
       service: "front-end",
-      langue: ["HTML", "CSS", "JavaScript","React","Bootstrap","Tailwind css","NodeJS","Express JS","StimulusJS","TypeScript"],
+      langue: ["HTML", "CSS", "JavaScript","React","NextJs","NodeJS","ExpressJS","Bootstrap","Tailwind css","NodeJS","Express JS","StimulusJS","TypeScript"],
     },
     {
       icon: backend,
       service: "Backend",
-      langue: ["PHP", "Laravel", "Symfony (Basic)",'MySQL'],
+      langue: ["PHP", "Laravel", "Symfony (Basic)",'MySQL',"APIs"],
     },
     {
       icon: other,
       service: "other",
-      langue: ["Informaticien", "Installation Camera", "Bureautique"],
+      langue: ["Informaticien", "Installation Cameras", "Bureautique"],
     },
   ];
   return (

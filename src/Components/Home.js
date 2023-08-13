@@ -43,7 +43,7 @@ function Home() {
                 <a rel="noopener noreferrer" href="https://www.instagram.com/abdelmounaimelhaddad/?utm_source=qr" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}><InstagramIcon sx={{ fontSize: 40 }} color=""  /></span> </a>
                 <a rel="noopener noreferrer" href="https://web.facebook.com/mounim.elhaddad.7?mibextid=ZbWKwL&_rdc=1&_rdr" target="_blank" > <span className="ms-1" style={{cursor:"pointer"}}><FacebookRoundedIcon sx={{ fontSize: 40 }} color="light"  /></span> </a>
               </div>
-              <div className="mt-5" > <a href="./CV/CV_Elhaddad_Abdelmounaim.pdf" download="CV_Elhaddad_Abdelmounaim" ><Button variant="contained"  endIcon={<CloudDownloadTwoToneIcon />} > Download CV  </Button></a> </div>
+              <div className="mt-5" > <a href="./CV/Cv_Web_Elhaddad.pdf" target="_blank"  ><Button variant="contained"  endIcon={<CloudDownloadTwoToneIcon />} > Download CV  </Button></a> </div>
             </div>
             <div className="col-12 col-sm-6 col-md-6 text-end"> 
             <img src={logo} alt="" className="img-fluid " style={{ height:"90%" }} />
